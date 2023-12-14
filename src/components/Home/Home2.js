@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Home2() {
   return (
@@ -104,6 +105,16 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+              <a
+                href="mailto:er.smit.solanki@gmail.com"
+                className="icon-colour home-social-icons"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <SiGmail />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>

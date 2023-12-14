@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -59,6 +60,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:er.smit.solanki@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiGmail />
               </a>
             </li>
           </ul>
