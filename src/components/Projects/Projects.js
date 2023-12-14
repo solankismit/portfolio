@@ -47,7 +47,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calc}
               isBlog={false}
@@ -56,7 +56,7 @@ function Projects() {
               ghLink="https://github.com/solankismit/Calculator-App"
               demoLink="https://drive.google.com/drive/folders/13jv4tRc190vkrb7GKUYwCkomu6ko-iB3?usp=drive_link"              
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={zipfood}
